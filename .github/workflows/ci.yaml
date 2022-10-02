@@ -118,7 +118,7 @@ jobs:
           fi
 
       - run: |
-          npx nx affected --target build --parallel 3
+          npx nx build react-lib
 
       - name: Release
         env:
