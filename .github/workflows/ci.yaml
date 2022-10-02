@@ -117,6 +117,9 @@ jobs:
             npm ci
           fi
 
+      - run: |
+          npx nx affected --target build --parallel 3
+
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
