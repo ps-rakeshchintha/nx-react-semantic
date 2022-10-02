@@ -1,4 +1,4 @@
-const name = '@ps-rakeshchintha/react-lib';
+const name = 'react-lib';
 const srcRoot = `libs/${name}`;
 
 module.exports = {
@@ -6,6 +6,7 @@ module.exports = {
   pkgRoot: `dist/${srcRoot}`,
   tagFormat: name + '-v${version}',
   commitPaths: [`${srcRoot}/*`],
+  branches: 'main',
   plugins: [
     '@semantic-release/commit-analyzer',
     '@semantic-release/release-notes-generator',
