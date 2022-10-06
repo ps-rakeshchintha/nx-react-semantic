@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/ps-rakeshchintha/nx-react-semantic/compare/react-lib-v1.0.0...react-lib-v1.1.0) (2022-10-06)
+
+
+### Features
+
+* test1 ([85876ae](https://github.com/ps-rakeshchintha/nx-react-semantic/commit/85876ae5f13cedd5edd4f44144a07cee5fb38a75))
+
 # 1.0.0 (2022-10-02)
 
 
